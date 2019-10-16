@@ -1,56 +1,54 @@
 # Site
-repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+repository: AvinashChavanN/avinashchavann.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Avinash Chavan
+title: Javascript Enthusiast
+email: chvn.avi@gmail.com
+phone: +1 (682) 347 6514
+website: https://github.com/avinashchavann
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
+github_username:  avinashchavann
+linkedin_username: avinash-chavan
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Software engineering professional with more than 6 years of experience in object-oriented approaches to real-time software development that encompasses analysis, design, development, unit testing, integration testing, deployment and support. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Full stack development of web applications and creative cloud engineer.
 
+  Yes, I love to explore new <mark>JavaScript</mark> libraries.
+    
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  -	<mark>Front-End:</mark> HTML5, CSS3, JavaScript, TypeScript, Angular, React, Redux, Flux, NodeJS, jQuery, AJAX, SASS, SCSS, LESS
+  -	<mark>Back-End:</mark> ASP.NET C#, MVC, RESTful API, Authenticate.Net 
+  -	<mark>Build Deploy and Version Control Tools:</mark> Git, Jenkins, Sourcetree
+  -	<mark>Programming Skills:</mark> Java, C#
+  -	<mark>SQL Database:</mark> Oracle, MySQL, Postgres SQL 
+  -	<mark>NoSQL:</mark> mongoDB, Neo4j
+  -	<mark>Cloud Platforms:</mark> AWS, GCP
 # Projects Section
-# projects_title: Projects
+# projects_title: Projects #(Use this to override about projects section title)
 
-# Experience Section
-# experience_title: Experience
+#Experience Section
+experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education
+# education_title: Education #(Use this to override about education section title)
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -58,3 +56,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
